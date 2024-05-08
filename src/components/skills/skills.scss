@@ -1,0 +1,45 @@
+.container_Skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px;
+
+    .container_Img_and_NameLogo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(248, 142, 142, 0);
+        box-shadow: 5px 6px 11px -4px #4F4F4F;
+        gap: 20px;
+        width: 120px;
+        height: 120px;
+        padding: 20px;
+        border-radius: 20px;
+    
+        img {
+            height: 48px;
+            width: 48px;
+        }
+    }      
+}
+
+@media screen and (min-width: 768px) {
+    .container_Skills{
+        padding: 150px;
+        gap: 80px;
+
+        .container_Img_and_NameLogo{
+            gap: 30px;
+            width: 150px;
+            height: 150px;
+            padding: 25px;
+        
+            img {
+                height: 60px;
+                width: 60px;
+            }
+        }      
+    }
+}
