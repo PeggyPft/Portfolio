@@ -1,0 +1,21 @@
+.footer-Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background: linear-gradient(1deg, rgb(245, 189, 196), rgba(245, 189, 196, 0.54));
+
+    .social-Icons{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        cursor: pointer;
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+

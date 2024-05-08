@@ -1,0 +1,60 @@
+.container_Header {
+    height: 100px;
+    background: linear-gradient(179deg, rgb(245 189 196), rgb(245 189 196 / 54%));
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    color: grey;
+    
+    .header_Title {
+        font-size: 2rem;
+    }    
+
+    .container_Links {
+        display: flex;
+        list-style: none;
+        font-size: 1rem;
+        gap: 15px;
+        cursor: pointer;
+
+        li {
+            display: flex;
+            justify-content: center;
+            font-size: 1rem;
+
+            a{
+                text-decoration: none;
+                color: inherit;
+            }
+            
+            &.active {
+                color: white;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container_Header {
+        padding: 20px 100px;
+        display: flex;
+        flex-direction: row;
+
+        .header_Title {
+            font-size: 2.5rem;
+        }
+
+        .container_Links {
+            gap: 30px;
+
+            li {
+            font-size: 1.5rem;
+        }
+
+    }
+    }
+}
