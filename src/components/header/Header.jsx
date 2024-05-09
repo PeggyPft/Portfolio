@@ -14,8 +14,7 @@ const Header = () => {
                     <ul className='container_Links'>
                         <li className={location.pathname === "/" ? "active" : ""}><Link to="/">A propos</Link></li>
                         <li className={location.pathname === "/Projects" ? "active" : ""}><Link to="/Projects">Projets</Link></li>
-                        <li className={location.pathname === "/Skills" ? "active" : ""}><Link to="/Skills">Compétences</Link></li>
-                        <li className={location.pathname === "/Contact" ? "active" : ""}><Link to="/Contact">Contact</Link></li>
+                        <li className={location.pathname === "/Skills" ? "active" : ""}><Link to="/Skills">Compétences</Link></li>                        
                     </ul>
                 </nav>
             </div>
