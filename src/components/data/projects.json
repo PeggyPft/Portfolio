@@ -53,7 +53,7 @@
     {
         "id": "5",
         "title":"Kasa",
-        "description":"Implémenter le front-end d'une application en utilisant React et React Router. Utiliser Node.js pour exécuter du code Javascript en dehors du navigateur.",
+        "description":"Implémenter le front-end d'une application. Utiliser Node.js pour exécuter du code JS.",
         "image": "src/assets/img_Projects/Kasa.png",
         "Link_Github":"https://github.com/PeggyPft?tab=repositories",
         "Link_Project_Github":"https://peggypft.github.io/Kasa_Projet_8/",
@@ -67,7 +67,7 @@
     {
         "id": "6",
         "title":"Argent_Bank",
-        "description":"Implémenter le dev front-end d'une application et l'intégrer avec le back-end via des appels API.",
+        "description":"Implémenter le front-end d'une application et l'intégrer avec le back-end via des appels API.",
         "image": "src/assets/img_Projects/Argent_Bank.png",
         "Link_Github":"",
         "Link_Project_Github":"",
