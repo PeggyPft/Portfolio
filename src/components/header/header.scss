@@ -1,13 +1,13 @@
 .container_Header {
     height: 100px;
-    background: linear-gradient(179deg, rgb(245 189 196), rgb(245 189 196 / 54%));
+    background: linear-gradient(179deg, rgb(245 189 196), rgb(245 189 196 / 44%));
     max-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     padding: 20px;
-    color:rgb(157, 144, 144);
+    color: blue;
     
     .header_Title {
         font-size: 2rem;

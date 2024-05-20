@@ -5,6 +5,7 @@ const Skills = ({}) => {
 
     return (
         <section className='container_Skills'>
+            <p className='list_Skills'>Mes compétences</p>
             {skillsData.map(skillsData => (
                 <div key={skillsData.id} className='container_Img_and_NameLogo' >
                     <img src={skillsData.image} alt={skillsData.nameLogo}/>

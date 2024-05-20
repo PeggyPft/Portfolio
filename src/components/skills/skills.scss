@@ -4,7 +4,15 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 50px;
+    padding: 30px 50px;
+
+    .list_Skills {
+        width: 100%;
+        color: rgb(157, 144, 144);
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
 
     .container_Img_and_NameLogo{
         display: flex;
@@ -27,8 +35,12 @@
 
 @media screen and (min-width: 768px) {
     .container_Skills{
-        padding: 150px;
+        padding: 50px150px;
         gap: 80px;
+
+        .list_Skills {
+            font-size: 2rem;
+        }
 
         .container_Img_and_NameLogo{
             gap: 30px;
