@@ -10,7 +10,7 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/in/peggy-proffit">
                     <img src="/images/logo_Linkedin.png" alt="Logo github" />
                 </a>
-                <a href="mailto:email@example.com">
+                <a href="mailto:proffit.peggy@yahoo.fr">
                     <img src="/images/logo_mail.svg" alt="Logo github" />
                 </a>
             </div>
