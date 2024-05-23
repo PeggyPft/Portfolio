@@ -21,7 +21,7 @@ const Projects = () => {
                             <p className='list-Skills'>{project.skills.join(', ')}</p>
                         </div>
                         <div className='container_Links_Projects'>
-                            <a href={project.Link_Github} target="_blank"><p className='link_Github' >Lien Github</p></a>
+                            <a href={project.Link_Project_Github} target="_blank"><p className='link_Github' >Lien Github</p></a>
                         </div>
                     </div>
                 </div>      
