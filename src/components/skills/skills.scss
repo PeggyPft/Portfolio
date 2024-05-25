@@ -1,60 +1,72 @@
-.container_Skills {
+.container_Main {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 30px 50px;
-
-    .list_Skills {
+    
+    h2 {
         width: 100%;
         color: rgb(157, 144, 144);
         text-align: center;
         font-size: 1.5rem;
         font-weight: bold;
-        margin-bottom: 20px;
     }
 
-    .container_Img_and_NameLogo{
+
+    .container_Skills {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        background-color: rgba(248, 142, 142, 0);
-        box-shadow: 5px 6px 11px -4px #4F4F4F;
+        flex-wrap: wrap;
         gap: 20px;
-        width: 120px;
-        height: 120px;
-        padding: 20px;
-        border-radius: 20px;
-    
-        img {
-            height: 48px;
-            width: 48px;
-        }
-    }      
-}
+        padding: 15px 30px;
 
-@media screen and (min-width: 780px) {
-    .container_Skills{
-        padding: 50px 80px;
-
-        .list_Skills {
-            font-size: 2rem;
-        }
+        
 
         .container_Img_and_NameLogo{
-            gap: 30px;
-            width: 150px;
-            height: 150px;
-            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgba(248, 142, 142, 0);
+            box-shadow: 5px 6px 11px -4px #4F4F4F;
+            gap: 20px;
+            width: 120px;
+            height: 120px;
+            padding: 20px;
+            border-radius: 20px;
         
             img {
-                height: 60px;
-                width: 60px;
+                height: 48px;
+                width: 48px;
             }
         }      
     }
 }
+
+@media screen and (min-width: 768px) {
+    .container_Main {
+        h2 {
+            font-size: 2rem;
+        }
+        .container_Skills{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+
+            .container_Img_and_NameLogo{
+                gap: 30px;
+                width: 150px;
+                height: 150px;
+                padding: 25px;
+            
+                img {
+                    height: 60px;
+                    width: 60px;
+                }
+            }      
+        }
+    }
+}
+
 
 @media screen and (min-width: 1024px) {
     .container_Skills{

@@ -5,8 +5,9 @@ const Projects = () => {
    
 
     return (
-        <div className='container_Projects'>
+        <div className='container_Main'>
             <h2>Mes projets</h2>
+            <div className='container_Projects'>
             {projectsData.map((project) => (        
                 <div key={project.id} className='projects'>
                     <div className='container_image'>
@@ -25,7 +26,8 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>      
-            ))}  
+            ))} 
+            </div> 
         </div>
     );
 };

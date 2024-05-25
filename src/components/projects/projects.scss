@@ -1,185 +1,210 @@
-.container_Projects {
+.container_Main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 40px;
-    padding: 20px;
-    background-color: rgb(255 255 254);
     color: rgb(157, 144, 144);
-    font-size: 1.2rem;
-    
-        h2 {
-            width: 100%;
-            text-align: center;
-        }
+    margin: 20px;
+    gap: 20px;
 
-    .projects {
-        position: relative;
+    h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 1.8rem;
+    }    
+
+    .container_Projects {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        background-color: rgb(248 248 247);
-        box-shadow: 5px 6px 11px -4px #4F4F4F;
-        border-radius: 20px;
-        width: 300px;
-        height: 300px;
-        cursor: pointer;
-
-        &:hover .container_hidden {
+        gap: 40px;
+        padding: 20px;
+        background-color: rgb(255 255 254);
+        color: rgb(157, 144, 144);
+        font-size: 1.2rem;      
+           
+        .projects {
+            position: relative;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
             align-items: center;
+            background-color: rgb(248 248 247);
+            box-shadow: 5px 6px 11px -4px #4F4F4F;
             border-radius: 20px;
-        }
-    
-        .container_image {
-            border-radius: 20px;
-            width: 100%;
-            height: 100%;
-            
+            width: 300px;
+            height: 300px;
+            cursor: pointer;
 
-            img {
+            &:hover .container_hidden {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
                 border-radius: 20px;
-                background-color: rgb(248 142 142 / 0%);
-                box-shadow: 5px 6px 11px -4px #4F4F4F;
+            }
+        
+            .container_image {
+                border-radius: 20px;
                 width: 100%;
                 height: 100%;
-                object-fit: fill;
-            }
-        }
-    }
-        .container_hidden {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 300px;
-            height: 300px;       
-            display: none;
-            align-items: center;
-            background-color: rgba(255, 255, 255, 0.9);
-            border-radius: 20px;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-
-            
-            .container_content {
-                display: flex;
-                flex-direction: column;            
-                width: 100%;
-                gap: 10px;
                 
-            
-                .title {
-                    font-size: 2rem;
-                    font-weight: bold;
-                    text-align: center;
-                    height: 50px;
-                    border-radius: 20px 20px 0 0;
-                    background: linear-gradient(179deg, rgb(245 189 196), rgb(245 189 196 / 14%));
-                    color: blue;
-                    line-height: 50px;
-                    
-                }                
 
-                .title_content {
-                    font-weight: bold;
-                    text-decoration: underline;
-                    line-height: 30px;
-                    color: rgb(77 62 62);
-                    padding: 5px;
-                }
-
-                .text_objectif {
-                    padding: 0 8px;
-                    font-size: 1.1rem;
-                }
-
-                .list-Skills{
-                    text-align: center;
-                    font-size: 1.1rem;
-                    line-height: 15px;
-                }
-            }
-
-            .container_Links_Projects {
-                display: flex;
-                
-                a{
-                    text-decoration: none;
-                    font-size: 1.1rem;
-                    color: rgb(157, 144, 144);
-                    background-color: rgba(248, 142, 142, 0);
-                    box-shadow: 5px 6px 11px -4px #4F4F4F;
+                img {
                     border-radius: 20px;
-                    padding: 7px;
-                    margin-bottom: 10px;
-                    background: linear-gradient(179deg, rgb(245 189 196), rgb(245 189 196 / 54%));
-                    transition: all 0.3s ease-in-out;
-
-                    &:hover {
-                        transform: scale(1.1);
-                        background: linear-gradient(179deg, rgb(245 189 196), rgb(245 189 196 / 70%));
-                        color: white;
-                    }
-                }            
+                    background-color: rgb(248 142 142 / 0%);
+                    box-shadow: 5px 6px 11px -4px #4F4F4F;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: fill;
+                }
             }
-        }    
-}
-
-@media screen and (min-width: 768px) {
-    .container_Projects {
-        flex-direction: row;
-        flex-wrap: wrap;
-        font-size: 1.5rem;
-        margin-bottom: 20px;
-        padding: 20px 130px;
         
-            h2 {
-                width: 100%;
-                text-align: center;
-            }
-
-            .projects {
-                width: 250px;
-                height: 250px;                
-            }
-
             .container_hidden {
-                width: 250px;
-                height: 250px;
-    
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 300px;
+                height: 300px;       
+                display: none;
+                align-items: center;
+                background-color: rgba(255, 255, 255, 1);
+                border-radius: 20px;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
                 
-                .container_content {  
-                    gap: 0;        
+                .container_content {
+                    display: flex;
+                    flex-direction: column;            
+                    width: 100%;
+                    gap: 10px;
                     
+                
                     .title {
-                        font-size: 1.2rem;
+                        font-size: 2rem;
                         font-weight: bold;
                         text-align: center;
-                    }
+                        height: 50px;
+                        border-radius: 20px 20px 0 0;
+                        background: linear-gradient(179deg, rgb(245 189 196), rgb(245 189 196 / 14%));
+                        color: rgb(157, 144, 144);
+                        line-height: 50px;
+                        
+                    }                
 
                     .title_content {
-                        font-size: 1rem;
-                        line-height: 20px;
+                        font-weight: bold;
+                        text-decoration: underline;
+                        line-height: 30px;
+                        color: rgb(77 62 62);
+                        padding: 5px;
+                    }
+
+                    .text_objectif {
+                        padding: 0 8px;
+                        font-size: 1.1rem;
                     }
 
                     .list-Skills{
-                        line-height: 30px;
+                        text-align: center;
+                        font-size: 1.1rem;
+                        line-height: 15px;
                     }
-                    
                 }
 
                 .container_Links_Projects {
                     display: flex;
                     
-                    a{
-                        font-size: 0.6rem;
-                        padding: 7px;                        
-                    }
-                }   
-            }   
+                    a {
+                        text-decoration: none;
+                        font-size: 1.1rem;
+                        color: rgb(157, 144, 144);
+                        background-color: rgba(248, 142, 142, 0);
+                        box-shadow: 5px 6px 11px -4px #4F4F4F;
+                        border-radius: 20px;
+                        padding: 7px;
+                        margin-bottom: 10px;
+                        background: linear-gradient(179deg, rgb(245 189 196), rgb(245 189 196 / 54%));
+                        transition: all 0.3s ease-in-out;
+
+                        &:hover {
+                            transform: scale(1.1);
+                            background: linear-gradient(179deg, rgb(245 189 196), rgb(245 189 196 / 70%));
+                            color: white;
+                        }
+                    }            
+                }
+            }  
+        }      
     }
 }
+
+@media screen and (min-width: 768px) {
+    .container_Main {
+        margin: 40px;
+        gap: 30px;
+
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        .container_Projects {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 60px;
+            
+            .projects {                  
+                          
+                .container_hidden {
+
+                    .container_content {
+                        gap: 5px;
+                        
+                        .title {
+                            font-size: 1.5rem;                           
+                        }              
+                    }
+    
+                    .container_Links_Projects {                        
+                        a{                            
+                            font-size: 0.8rem;                            
+                        }            
+                    }
+                }  
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container_Main {
+        margin: 40px;
+        gap: 30px;
+
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        .container_Projects {
+            grid-template-columns: repeat(3, 1fr);
+            
+            .projects {                 
+                .container_hidden {
+                    .container_content {                        
+                        .title {
+                            font-size: 1.5rem;                           
+                        }              
+                    }
+    
+                    .container_Links_Projects {                        
+                        a{                            
+                            font-size: 0.8rem;                            
+                        }            
+                    }
+                }  
+            }
+        }
+    }
+}
+
