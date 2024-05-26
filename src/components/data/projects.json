@@ -38,16 +38,16 @@
     },    
     {
         "id": "4",
-        "title":"SophieBluel",
-        "description":"Créer une page web dynamique en utilisant JavaScript et en communiquant avec une API",
-        "image": "src/assets/img_Projects/Sophie_Bluel.png",
-        "Link_Github":"https://github.com/PeggyPft/SophieBluel_Projet_6",
-        "Link_Project_Github":"https://peggypft.github.io/SophieBluel_Projet_6/",
+        "title":"Nina Carducci",
+        "description":"Optimiser le référencement d'un site en améliorant sa performance et son accessibilité",
+        "image": "src/assets/img_Projects/Nina_Carducci.png",
+        "Link_Github":"https://github.com/PeggyPft/Nina-Carducci_Projet_9",
+        "Link_Project_Github":"https://peggypft.github.io/Nina-Carducci_Projet_9/",
         "skills": [
             "html",
             "CSS",
-            "Javascript",
-            "API"
+            "Lighthouse",
+            "Wave"
         ]
     },        
     {
@@ -70,7 +70,7 @@
         "description":"Implémenter le front-end d'une application et l'intégrer avec le back-end via des appels API.",
         "image": "src/assets/img_Projects/Argent_Bank.png",
         "Link_Github":"",
-        "Link_Project_Github":"",
+        "Link_Project_Github":"https://github.com/PeggyPft/ArgentBank_Projet11",
         "skills": [
             "html",
             "CSS",
