@@ -1,42 +1,42 @@
 [
     {
         "id": "1",
-        "image": "src/assets/logos/logoCSS3.png",
+        "image": "https://peggypft.github.io/Portfolio/src/assets/logos/logoCSS3.png",
         "nameLogo": "CSS"
     },
     {
         "id": "2",
-        "image": "src/assets/logos/logoHTML5.png",
+        "image": "https://peggypft.github.io/Portfolio/src/assets/logos/logoHTML5.png",
         "nameLogo": "HTML"
     },
     {
         "id": "3",
-        "image": "src/assets/logos/logoSass.png",
+        "image": "https://peggypft.github.io/Portfolio/src/assets/logos/logoSass.png",
         "nameLogo": "SASS"
     },
     {
         "id": "4",
-        "image": "src/assets/logos/logoJavascript.png",
+        "image": "https://peggypft.github.io/Portfolio/src/assets/logos/logoJavascript.png",
         "nameLogo": "JAVASCRIPT"
     },
     {
         "id": "5",
-        "image": "src/assets/logos/logoNodeJs.png",
+        "image": "https://peggypft.github.io/Portfolio/src/assets/logos/logoNodeJs.png",
         "nameLogo": "NODE.JS"
     },
     {
         "id": "6",
-        "image": "src/assets/logos/logoReact.png",
+        "image": "https://peggypft.github.io/Portfolio/src/assets/logos/logoReact.png",
         "nameLogo": "REACT"
     },
     {
         "id": "7",
-        "image": "src/assets/logos/logoRedux.png",
+        "image": "https://peggypft.github.io/Portfolio/src/assets/logos/logoRedux.png",
         "nameLogo": "REDUX"
     },
     {
         "id": "8",
-        "image": "src/assets/logos/logoGithub.png",
+        "image": "https://peggypft.github.io/Portfolio/src/assets/logos/logoGithub.png",
         "nameLogo": "GITHUB"
     }
 ]
