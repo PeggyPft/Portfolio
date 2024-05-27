@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     const location = useLocation();
@@ -12,9 +12,9 @@ const Header = () => {
                 </div>   
                 <nav>
                     <ul className='container_Links'>
-                        <li className={location.pathname === "/" ? "active" : ""}><Link to="/">A propos</Link></li>
-                        <li className={location.pathname === "/Projects" ? "active" : ""}><Link to="/Projects">Projets</Link></li>
-                        <li className={location.pathname === "/Skills" ? "active" : ""}><Link to="/Skills">Compétences</Link></li>                        
+                        <li><NavLink to="/" end className={({isActive}) => (isActive ? "active" : "")}>A propos</NavLink></li>
+                        <li><NavLink to="/Projects" end className={({isActive}) => (isActive ? "active" : "")}>Projets</NavLink></li>
+                        <li><NavLink to="/Skills" end className={({isActive}) => (isActive ? "active" : "")}>Compétences</NavLink></li>                        
                     </ul>
                 </nav>
             </div>
