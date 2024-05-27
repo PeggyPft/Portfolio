@@ -3,7 +3,7 @@
         "id": "1",
         "title":"Booki",
         "description":"Se familiariser avec l'ajout et la structuration d'éléments en HTML",
-        "image": "https://peggypft.github.io/Portfolio/assets/img_Projects/Booki.png",
+        "image": "https://peggypft.github.io/Portfolio/img_Projects/Booki.png",
         "Link_Github":"https://github.com/PeggyPft/Booki_projet_3",
         "Link_Project_Github":"https://peggypft.github.io/Booki_projet_3/",
         "skills": [
@@ -15,7 +15,7 @@
         "id": "2",
         "title":"Ohmyfood",
         "description":"Intégrer une maquette en mobile-first en utilisant Sass",
-        "image": "https://peggypft.github.io/Portfolio/assets/img_Projects/Ohmyfood.png",
+        "image": "https://peggypft.github.io/Portfolio/img_Projects/Ohmyfood.png",
         "Link_Github":"https://github.com/PeggyPft/Ohmyfood-projet_4",
         "Link_Project_Github":"https://peggypft.github.io/Ohmyfood-projet_4/",
         "skills": [
@@ -27,7 +27,7 @@
         "id": "3",
         "title":"Print_It",
         "description":"Dynamiser le site internet statique d'une imprimerie en y ajoutant un carrousel",
-        "image": "https://peggypft.github.io/Portfolio/assets/img_Projects/Print_It.png",
+        "image": "https://peggypft.github.io/Portfolio/img_Projects/Print_It.png",
         "Link_Github":"https://github.com/PeggyPft/Print_It_Projet_5",
         "Link_Project_Github":"https://peggypft.github.io/Print_It_Projet_5/",
         "skills": [
@@ -40,7 +40,7 @@
         "id": "4",
         "title":"Nina Carducci",
         "description":"Optimiser le référencement d'un site en améliorant sa performance et son accessibilité",
-        "image": "https://peggypft.github.io/Portfolio/assets/img_Projects/Nina_Carducci.png",
+        "image": "https://peggypft.github.io/Portfolio/img_Projects/Nina_Carducci.png",
         "Link_Github":"https://github.com/PeggyPft/Nina-Carducci_Projet_9",
         "Link_Project_Github":"https://peggypft.github.io/Nina-Carducci_Projet_9/",
         "skills": [
@@ -54,7 +54,7 @@
         "id": "5",
         "title":"Kasa",
         "description":"Implémenter le front-end d'une application. Utiliser Node.js pour exécuter du code JS.",
-        "image": "https://peggypft.github.io/Portfolio/assets/img_Projects/Kasa.png",
+        "image": "https://peggypft.github.io/Portfolio/img_Projects/Kasa.png",
         "Link_Github":"https://github.com/PeggyPft?tab=repositories",
         "Link_Project_Github":"https://peggypft.github.io/Kasa_Projet_8/",
         "skills": [
@@ -68,7 +68,7 @@
         "id": "6",
         "title":"Argent_Bank",
         "description":"Implémenter le front-end d'une application et l'intégrer avec le back-end via des appels API.",
-        "image": "https://peggypft.github.io/Portfolio/assets/img_Projects/Argent_Bank.png",
+        "image": "https://peggypft.github.io/Portfolio/img_Projects/Argent_Bank.png",
         "Link_Github":"",
         "Link_Project_Github":"https://github.com/PeggyPft/ArgentBank_Projet11",
         "skills": [
